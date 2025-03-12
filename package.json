@@ -4,6 +4,7 @@
   "description": "One command to generate REST APIs for any MySql database",
   "main": "index.js",
   "scripts": {
+      "start": "xmysql -h $DB_HOST -u $DB_USER -p $DB_PASSWORD -d $DB_NAME --port 3000",
     "test": "./node_modules/.bin/mocha tests/*.js --exit"
   },
   "keywords": [
